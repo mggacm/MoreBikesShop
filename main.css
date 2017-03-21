@@ -64,10 +64,49 @@ body{
     margin-bottom: 0px;
 }
 
-#main {
-    
-    
+#recent-news > ul {
+    list-style: none;
 }
+    #recent-news > ul > li {
+        margin: 0px 0px 3px 0px;
+}
+
+#main {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin: 0px 0px 3px 0px;
+}
+
+#dount-header{
+    color: green;
+    font-size:15px;
+    margin: 0px 0px 3px 0px;
+    height: 25px;
+
+}
+   .products{
+       width: 25%;
+       float: left;
+       margin: 0PX 0PX 20PX 0PX;
+   }
+
+   .product-artical{
+       height: 150px;
+       width: 200px;
+
+       border-width: 2px;
+       border-style: solid;
+       border-color: green;
+       margin: 3px 3px 3px 3px;
+       padding: 3px 3px 3px 3px;
+       border-radius: 5px;
+   }
+   .product-thumbnail{
+       width: 35px;
+       height: 35px;
+   }
+
 
 #footer{
     width: 100%;
