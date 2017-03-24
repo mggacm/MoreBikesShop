@@ -8,6 +8,11 @@ body {
     background-color: #0e462b;
 }
 
+#main-header{
+    height: 80px;
+}
+
+
 .logo {
     width: 60px;
     height: 60px;
@@ -42,7 +47,7 @@ body {
     float:right;
 }
 
-.welcome{
+#welcome{
     width: 700px;
     float: left;
     font-size: 12px;
@@ -54,7 +59,8 @@ body {
     width: 300px;
     margin: 20px 0px 20px 0px;
 }
-    #recent-news > header {
+
+#recent-news > header {
         margin-left: 5px;
         color: #009688;
         font-size: 15px;
@@ -76,9 +82,9 @@ body {
     margin: 0px 0px 3px 0px;
 }
 
-#dount-header{
+#bike-header{
     color: green;
-    font-size:15px;
+    font-size:25px;
     margin: 0px 0px 3px 0px;
     height: 25px;
 
@@ -88,26 +94,37 @@ body {
     background-color: gold;
     border-radius: 5px;
 }
-   .products{
+.products{
        width: 25%;
        float: left;
        margin: 0PX 0PX 20PX 0PX;
-   }
+}
 
-   .product-artical{
+#product-article{
        height: 150px;
        width: 200px;
        border-width: 2px;
        border-style: solid;
        border-color: green;
        margin: 3px 3px 3px 3px;
-       padding: 3px 3px 3px 3px;
+       padding: 1px 3px 3px 3px;
        border-radius: 5px;
-   }
-   .product-thumbnail{
+}
+.product-thumbnail{
        width: 35px;
        height: 35px;
-   }
+}
+
+.stuff {
+    width: 70%;
+    float: right;
+}
+
+#customer-of-day {
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+}
 
 
 #footer{
