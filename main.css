@@ -1,12 +1,11 @@
 /*  */
 
-body{
-    background-color:aqua;
-    /*pink or hot pink to accent*/
+body {
     width: 1000px;
-    margin-left: auto ;
-    margin-right: auto ;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Belleza;
+    background-color: #0e462b;
 }
 
 .logo {
@@ -18,20 +17,18 @@ body{
 }
 
 #header-name {
-    
-    font-size: 40px;
-    color: #ff00d2;
+    font-size: 60px;
+    color: #FFC107;
     padding: 15px;
     margin: 0px 0px 0px 0px;
-    
 }
+
 #search{
-    
     float: right;
     padding: 5px;
-    margin: 10px 10px 10px 10px;
-  
+    margin: 10px 10px 0px 0px;  
 }
+
 #main-image{
     width:700px;
     height: 250px;
@@ -48,6 +45,7 @@ body{
 .welcome{
     width: 700px;
     float: left;
+    font-size: 12px;
     margin: 20px 0px 20px 0px;
 }
 
@@ -56,13 +54,13 @@ body{
     width: 300px;
     margin: 20px 0px 20px 0px;
 }
-#recent-news > header{
-    margin-left: 5px;
-    color: green;
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 0px;
-}
+    #recent-news > header {
+        margin-left: 5px;
+        color: #009688;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
 
 #recent-news > ul {
     list-style: none;
@@ -85,6 +83,11 @@ body{
     height: 25px;
 
 }
+
+#header-title {
+    background-color: gold;
+    border-radius: 5px;
+}
    .products{
        width: 25%;
        float: left;
@@ -94,7 +97,6 @@ body{
    .product-artical{
        height: 150px;
        width: 200px;
-
        border-width: 2px;
        border-style: solid;
        border-color: green;
@@ -109,6 +111,7 @@ body{
 
 
 #footer{
+    clear: both;
     width: 100%;
     background-color: white;
     margin: 20px 0px 20px 0px;
