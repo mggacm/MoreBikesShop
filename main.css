@@ -104,7 +104,16 @@ header{
        margin: 0px 0px 20px 0px;
 }
 
-
+/*.product-article {
+    height: 150px;
+    width: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    margin: 3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+}*/
 .product-article-thumbnail{
        width: 35px;
        height: 35px;
