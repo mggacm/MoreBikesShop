@@ -7,7 +7,6 @@ body {
     margin-right: auto;
     font-family: Belleza;
 }
-
 .logo {
     width: 90px;
     height: 90px;
@@ -22,15 +21,11 @@ body {
     margin-right: 10px;
     float: left;
 }
-
-
-#header-name {
-    
+#header-name {    
     font-size: 60px;
     color: gold;
     padding: 15px;
     margin: 20px 0px 20px 30px;
-    
 }
 #search{
     
@@ -39,87 +34,59 @@ body {
     margin: 10px 10px 10px 10px;
   
 }
-#header-undertop {
-    background-color: gold;
-    border-radius: 5px;
-    
-}
-
-
-.welcome{
-    width: 700px;
-    float: left;
-    margin: 20px 0px 20px 0px;
-}
-
-#links {
-    float: right;
-    width: 300px;
+#links {    
+    width: 100%;
     margin: 20px 0px 20px px;
 }
-    #links> header {
-       
+    #links-header {       
         color: gold;
         font-size: 15px;
         font-weight: bold;
         margin-bottom: 0px;
-        
-    }
-
+}
 #links > ul {
     list-style: none;
 }
-    #links > ul > li {
-        margin: 0px 0px 3px 0px;
-}
-
 #main {
     height: 100%;
     width: 700px;
-    
     margin: 0px 0px 3px 0px;
+    float: right;
 }
-
 #bike-header{
     color: gold;
     font-size:15px;
     margin: 0px 0px 3px 0px;
     height: 25px;
-
+    float: right;
 }
 #header-title {
     background-color: gold;
     border-radius: 5px;
+    float: right;
 }
    .products{
        width: 50%;
-       
+       float: right;
        margin: 0PX 0PX 20PX 0PX;
-
    }
 .product-name{
     float: right;
-
 }
-
 .product-thumbnail {
     width: 70px;
     height: 55px;
     float: right;
 }
 .related {
-    width: 10%;
-    float: right;
+    width: 100%;
+   
 }
-
 #pics {
     width: 350px;
     height: 450px;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
-
-
 #footer {
     width: 100%;
     background-color: #d4cdcd;
